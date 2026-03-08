@@ -146,7 +146,8 @@ header .navbar{
 .hero-section .hero-content{
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    text-align: center;
+    /* margin-left: 40px; */
     min-height: 100vh;
     color: var(--white-color);
     justify-content: space-between;
@@ -625,6 +626,8 @@ header .navbar{
     .contact-section .contact-form
     {
         max-width: 100%;
+        /* margin-left: 0px; */
+        text-align: center;
     }
 
     .hero-section .hero-details .buttons{
@@ -653,7 +656,7 @@ header .navbar{
     }
 
     .menu-section .menu-list .menu-item{
-        width: calc(100% / 2 -30px);
+        width: calc(100% / 2 - 30px);
     }
 
     .menu-section .menu-list .menu-item .menu-image{
